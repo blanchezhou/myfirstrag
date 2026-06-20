@@ -132,44 +132,4 @@ Retrieval失败。
 Garbage in
 Garbage out
 
----
 
-如果面试让你解释这个项目
-不要说：
-
-I used SentenceTransformer and cosine similarity.
-
-太像教程。
-应该说：
-
-I built a simple RAG pipeline for resume question answering. I first extracted and cleaned PDF text, split documents into chunks, converted them into embeddings, retrieved relevant chunks based on semantic similarity, and finally used an LLM to generate answers based on retrieved information.
-
-这就是工程描述。
-
----
-
-你现在的位置
-如果把RAG学习分阶段：
-Level 0
-Python基础
-      ↓
-Level 1
-调用LLM API
-      ↓
-Level 2
-理解RAG pipeline   ← 你现在这里
-      ↓
-Level 3
-使用LangChain/LlamaIndex
-      ↓
-Level 4
-Vector DB
-(Qdrant, Chroma)
-      ↓
-Level 5
-Evaluation
-(RAGAS, reranking)
-      ↓
-Level 6
-Production RAG
-(Cloud, API, monitoring)
